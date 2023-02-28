@@ -1,0 +1,104 @@
+html,body{
+    
+    margin:0px;
+    padding: 0px;
+    height: 100%;
+}
+
+.img1{
+    background-image:url(images/image01.jpg);
+    height:100%;
+}
+.img2{
+    background-image:url(images/image02.jpg);
+    height:100%;
+}
+.img3{
+    background-image:url(images/image03.jpg);
+    height:100%;
+}
+.img4{
+    background-image:url(images/image04.jpg);
+    height:100%;
+}
+.img1,.img2,.img3,.img4{
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img1 h1{
+    position: relative;
+    left: 530px;
+    top:300px;
+    width: 450px;
+    height: 100px;
+    padding: 10px;
+    font-size:40px;
+    font-family:'Courier New', Courier, monospace, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color:rgb(205, 218, 226);
+    color:black;
+    text-align: center;
+}
+
+.img2 h1{
+    position:relative;
+    left: 530px;
+    top:300px;
+    width: 450px;
+    height:60px;
+    padding:10px;
+    font-size:40px;
+    font-family:'Courier New', Courier, monospace, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color:rgb(194,207,218);
+    color:black;
+    text-align:center;
+}
+
+.img3 h1{
+    position:relative;
+    left: 530px;
+    top:300px;
+    width: 450px;
+    height:100px;
+    padding:10px;
+    font-size:40px;
+    font-family: 'Courier New', Courier, monospace, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color:rgb(194,207,218);
+    color:black;
+    text-align:center;
+}
+
+.img4 h1{
+    position:relative;
+    left: 530px;
+    top:300px;
+    width: 450px;
+    height:60px;
+    padding:10px;
+    font-size:40px;
+    font-family:'Courier New', Courier, monospace, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color:rgb(194,207,218);
+    color:black;
+    text-align:center;
+}
+
+.section-light{
+    background-color: #fff;
+    color:black;
+    text-align: center;
+}
+
+text,p{
+    text-transform: capitalize;
+    text-align: center;
+    padding: 1.5%;
+    background-color:white;
+}
